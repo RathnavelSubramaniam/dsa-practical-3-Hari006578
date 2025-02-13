@@ -16,8 +16,186 @@ arr[i] = sc.nextInt();
 int secondLargest = findSecondLargest(arr);
 System.out.println("The Second Highest Number is "+ secondLargest);
 }
-static int findSecondLargest()
+static int findSecondLargest(int[]arr)
 {
-//TYPE YOUR CODE HERE
-}
-}
+int max=Integer.MIN_VALUE;
+int secondMax=Integer.MIN_VALUE;
+for(int num:arr){
+    if(num>max){
+            secondMax=max;
+                    max=num;
+                              
+                                  }
+                                      else if(num>secondMax && num<max)
+                                          {
+                                                  secondMax=num;
+                                                      }
+                                                      }
+                                                      return secondMax;
+                                                      }
+                                                      }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
